@@ -1,0 +1,267 @@
+*{
+    padding:0px;
+    border:border-box;
+    font-family: arial;
+
+
+}
+/**navbar*/
+header{
+    position: sticky;
+    top:0px;
+    z-index: 1;
+    background-color: #ffffff;
+}
+.navbar
+{
+   height: 70px;
+   border-bottom: 2px solid whitesmoke;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   
+}
+.navbar-imagetop
+{
+    height: 70px;
+    width:150px;
+    margin-bottom: 20px;
+   
+}
+.navbar-image{
+    height: 95%;
+    width:94%;
+    background-image: url("messologo.jpg");
+    background-size: cover;
+}
+.navbar-inp
+{
+    width: 470px;
+    height: 44px;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: whitesmoke;
+    border: 1px solid rgb(120, 120, 120);
+    border-radius: 7px;
+    
+}
+.inp{
+    width:410px;
+    height:38px;
+    font-size: 15px;
+   border: none;
+   outline: none;
+}
+.search-icon{
+color:rgb(157,156,156);
+transform:scale(1.5);
+}
+.nav-mobile
+{
+    display: flex;
+    align-items: center;
+    border-right: 2px solid rgb(215, 210, 210);
+    color:rgb(95, 94, 94);
+    height: 41px;
+   
+}
+.nav-mobile i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.nav-mobile p{
+    margin-right: 25px;
+}
+.sel
+{
+    border-right: 2px solid rgb(215, 210, 210);
+    height: 41px;
+    color:rgb(95, 94, 94);
+    
+}
+.sel p{
+    margin-right: 25px;
+}
+.new{
+    border-right: 2px solid rgb(215, 210, 210);
+    height: 41px;
+    color:rgb(95, 94, 94);
+   
+}
+.new p{
+    margin-right: 25px;
+}
+.profile i{
+    font-size: 20px;
+    margin-top: 27px;
+}
+.profile p{
+    position: relative;
+    bottom:15px;
+    right: 12px;
+}
+.cart{
+    position: relative;
+    right: 20px;
+}
+.cart i{
+    font-size: 20px;
+    margin-top: 27px;
+}
+.cart p{
+    position: relative;
+    bottom:15px;
+}
+/**pannel**/
+.pannel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:rgb(95, 94, 94);
+    border-bottom: 2px solid rgb(221, 214, 214);
+}
+.pannel p:hover{
+    color: rgb(94, 63, 123);
+    cursor: pointer;
+    text-decoration: underline;
+}
+/**heroimage**/
+.hero{
+    margin-top: 50px;
+ height: 450px;
+ width: 1200px;
+display:flex;
+position: relative;
+left:216px;
+}
+.disc{
+    height: 380px;
+    width:560px;
+    background-color: #f8f8ff;
+    
+}
+.hrimg img{
+    height:380px;
+    width:510px;
+    background-repeat: no-repeat;
+    
+}
+.disc p{
+    color: rgb(51, 49, 49);
+    font-weight: bolder;
+    font-size:47px;
+    position: relative;
+    left: 29px;
+}
+.dilv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    width: 400px;
+    height: 58px;
+    position: relative;
+    left: 90px;
+}
+.dilv a{
+    text-decoration: none;
+    color: rgb(51, 49, 49);
+    font-size: 16px;
+    font-weight: bold;
+    border-right:1px solid rgb(65, 60, 60); 
+   
+}
+/**para**/
+.alig{
+    height: 88px;
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    right:30px;
+}
+.alig p{
+    font-weight: bolder;
+    font-size: 35px;
+    color: #353543;
+}
+.img1{
+  height: 540px;
+  width:1100px;
+}
+.setimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.Bsell{
+    display: flex;
+    flex-direction: column;
+   
+    align-items:flex-end;
+    
+}
+#p1{
+    font-size: 35px;
+    color:#5585f8;
+    margin-right: 20px;
+}
+#p2
+{
+    font-size: 46px;
+    color:#9f2089;
+    font-weight: bold;
+    margin-right: 20px;
+}
+/***shoping**/
+.shoping{
+   margin-top: 60px;
+   display: flex;
+   justify-content: space-around;
+   margin-left: 150px;
+   width:1200px;
+   height: 390px;
+}
+.mainshop{
+    
+   width: 200px;
+   height: 420px;
+    border: 1px solid rgb(147, 137, 137);
+  border-radius: 10px;
+}
+.shopimg{
+    width: 160px;
+    height: 230px;
+    margin-left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#pt{
+    height: 25px;
+    width: 50px;
+    background-color: #038d63;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.mainshop p{
+    margin-left: 10px;
+}
+/**footer**/
+.foot1{
+    background-color: #f8f8ff;
+    height: 450px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fotp2 a{
+    text-decoration: none;
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #636373;
+    font-weight: bold;
+}
